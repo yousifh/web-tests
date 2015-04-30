@@ -43,3 +43,9 @@ body {
   width: 50%;
   height: 50%;
 }
+
+@media all and (max-width: 600px) {
+  .item-1, .item-2, .item-3, .item-4 {
+    width: 100%;
+  }
+}
