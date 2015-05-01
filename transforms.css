@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.item-1 {
+  background: tomato;
+  width: 20%;
+  height: 10%;
+  transform: skew(-40deg);
+  color: white;
+}
+
+.item-2 {
+  background: #EA2D49;
+  width: 20%;
+  height: 10%;
+  transform: skew(-40deg);
+  color: white;
+}
+
+.item-3 {
+  background: #344857;
+  width: 20%;
+  height: 10%;
+  transform: skew(-40deg);
+  color: white;
+}
+
+.item-4 {
+  background: #73DE4B;
+  width: 20%;
+  height: 10%;
+  transform: skew(-40deg);
+  color: white;
+}
