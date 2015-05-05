@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+
+body {
+	border-top: 5px solid tomato;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.main {
+	height: 100%;
+	width: 80%;
+	max-width: 1000px;
+	background: #959490;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.sidebar {
+	background: #EA2D49;
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.content {
+	background: #73DE4B;
+	height: 100%;
+	width: 70%;
+	float: right;
+}
+
+footer {
+	position: absolute;
+	background: #344857;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
