@@ -15,11 +15,11 @@
     var megaman = new PIXI.Sprite(megaTexture);
 
     
-    megaman.position.x = 400;
+    megaman.position.x = 300;
     megaman.position.y = 300;
 
-    megaman.scale.x = 2;
-    megaman.scale.y = 2;
+    megaman.scale.x = 0.5;
+    megaman.scale.y = 0.5;
 
     
     stage.addChild(megaman);
@@ -29,7 +29,7 @@
     function animate() {
     	requestAnimationFrame(animate);
 
-    	megaman.rotate += 0.01;
+    	megaman.rotation += 0.05;
 
     	renderer.render(stage);
     }
